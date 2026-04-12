@@ -1,0 +1,45 @@
+{"tableName": "Courses", "record": {"Course_code": "MATH101 ", "Name": "College Algebra", "Credits": 3, "Description": "Fundamental algebraic concepts and problem solving"}}
+{"tableName": "Courses", "record": {"Course_code": "MATH102 ", "Name": "Trigonometry", "Credits": 3, "Description": "Trigonometric functions and applications"}}
+{"tableName": "Courses", "record": {"Course_code": "MATH103 ", "Name": "Precalculus", "Credits": 4, "Description": "Preparation for calculus sequence"}}
+{"tableName": "Courses", "record": {"Course_code": "MATH201 ", "Name": "Calculus I", "Credits": 4, "Description": "Differential calculus and applications"}}
+{"tableName": "Courses", "record": {"Course_code": "MATH202 ", "Name": "Calculus II", "Credits": 4, "Description": "Integral calculus and series"}}
+{"tableName": "Courses", "record": {"Course_code": "MATH203 ", "Name": "Linear Algebra", "Credits": 3, "Description": "Matrices, vector spaces, and linear transformations"}}
+{"tableName": "Courses", "record": {"Course_code": "MATH301 ", "Name": "Differential Equations", "Credits": 3, "Description": "Ordinary differential equations and methods"}}
+{"tableName": "Courses", "record": {"Course_code": "MATH302 ", "Name": "Abstract Algebra", "Credits": 3, "Description": "Groups, rings, and fields"}}
+{"tableName": "Courses", "record": {"Course_code": "MATH303 ", "Name": "Real Analysis", "Credits": 3, "Description": "Rigorous treatment of calculus concepts"}}
+{"tableName": "Courses", "record": {"Course_code": "PHYS101 ", "Name": "General Physics I", "Credits": 4, "Description": "Mechanics and thermodynamics with lab"}}
+{"tableName": "Courses", "record": {"Course_code": "PHYS102 ", "Name": "General Physics II", "Credits": 4, "Description": "Electricity and magnetism with lab"}}
+{"tableName": "Courses", "record": {"Course_code": "PHYS103 ", "Name": "Physics Lab Techniques", "Credits": 2, "Description": "Experimental methods and measurement"}}
+{"tableName": "Courses", "record": {"Course_code": "PHYS201 ", "Name": "Modern Physics", "Credits": 3, "Description": "Relativity and quantum mechanics introduction"}}
+{"tableName": "Courses", "record": {"Course_code": "PHYS202 ", "Name": "Thermodynamics", "Credits": 3, "Description": "Statistical mechanics and heat transfer"}}
+{"tableName": "Courses", "record": {"Course_code": "PHYS203 ", "Name": "Optics and Waves", "Credits": 3, "Description": "Wave phenomena and optical systems"}}
+{"tableName": "Courses", "record": {"Course_code": "PHYS301 ", "Name": "Quantum Mechanics", "Credits": 4, "Description": "Advanced quantum theory and applications"}}
+{"tableName": "Courses", "record": {"Course_code": "PHYS302 ", "Name": "Nuclear Physics", "Credits": 3, "Description": "Nuclear structure and reactions"}}
+{"tableName": "Courses", "record": {"Course_code": "PHYS303 ", "Name": "Solid State Physics", "Credits": 3, "Description": "Crystalline materials and electronic properties"}}
+{"tableName": "Courses", "record": {"Course_code": "ENGR101 ", "Name": "Engineering Design I", "Credits": 3, "Description": "Introduction to engineering problem solving"}}
+{"tableName": "Courses", "record": {"Course_code": "ENGR102 ", "Name": "Engineering Graphics", "Credits": 2, "Description": "Technical drawing and CAD fundamentals"}}
+{"tableName": "Courses", "record": {"Course_code": "ENGR103 ", "Name": "Materials Science", "Credits": 3, "Description": "Properties and selection of engineering materials"}}
+{"tableName": "Courses", "record": {"Course_code": "ENGR201 ", "Name": "Statics", "Credits": 3, "Description": "Analysis of forces in static systems"}}
+{"tableName": "Courses", "record": {"Course_code": "ENGR202 ", "Name": "Dynamics", "Credits": 3, "Description": "Kinematics and kinetics of particles and bodies"}}
+{"tableName": "Courses", "record": {"Course_code": "ENGR203 ", "Name": "Circuits and Electronics", "Credits": 4, "Description": "Basic electrical circuits and electronic devices"}}
+{"tableName": "Courses", "record": {"Course_code": "ENGR301 ", "Name": "Fluid Mechanics", "Credits": 3, "Description": "Fluid statics, dynamics, and applications"}}
+{"tableName": "Courses", "record": {"Course_code": "ENGR302 ", "Name": "Thermodynamics", "Credits": 3, "Description": "Energy systems and heat transfer"}}
+{"tableName": "Courses", "record": {"Course_code": "ENGR303 ", "Name": "Control Systems", "Credits": 3, "Description": "Automatic control theory and design"}}
+{"tableName": "Courses", "record": {"Course_code": "CSCI101 ", "Name": "Introduction to Programming", "Credits": 3, "Description": "Programming fundamentals and problem solving"}}
+{"tableName": "Courses", "record": {"Course_code": "CSCI102 ", "Name": "Data Structures", "Credits": 3, "Description": "Arrays, lists, trees, and algorithms"}}
+{"tableName": "Courses", "record": {"Course_code": "CSCI103 ", "Name": "Computer Organization", "Credits": 3, "Description": "Digital logic and computer architecture"}}
+{"tableName": "Courses", "record": {"Course_code": "CSCI201 ", "Name": "Algorithms", "Credits": 3, "Description": "Algorithm design and analysis"}}
+{"tableName": "Courses", "record": {"Course_code": "CSCI202 ", "Name": "Operating Systems", "Credits": 3, "Description": "Process management and system resources"}}
+{"tableName": "Courses", "record": {"Course_code": "CSCI203 ", "Name": "Database Systems", "Credits": 3, "Description": "Database design and SQL programming"}}
+{"tableName": "Courses", "record": {"Course_code": "CSCI301 ", "Name": "Artificial Intelligence", "Credits": 3, "Description": "Machine learning and intelligent agents"}}
+{"tableName": "Courses", "record": {"Course_code": "CSCI302 ", "Name": "Software Engineering", "Credits": 3, "Description": "Software development life cycle and practices"}}
+{"tableName": "Courses", "record": {"Course_code": "CSCI303 ", "Name": "Robotics", "Credits": 3, "Description": "Robot kinematics and autonomous systems"}}
+{"tableName": "Courses", "record": {"Course_code": "CHEM101 ", "Name": "General Chemistry I", "Credits": 4, "Description": "Atomic structure and chemical bonding with lab"}}
+{"tableName": "Courses", "record": {"Course_code": "CHEM102 ", "Name": "General Chemistry II", "Credits": 4, "Description": "Chemical reactions and equilibria with lab"}}
+{"tableName": "Courses", "record": {"Course_code": "CHEM103 ", "Name": "Chemistry Lab Safety", "Credits": 1, "Description": "Laboratory safety procedures and protocols"}}
+{"tableName": "Courses", "record": {"Course_code": "CHEM201 ", "Name": "Organic Chemistry I", "Credits": 4, "Description": "Structure and reactions of organic compounds"}}
+{"tableName": "Courses", "record": {"Course_code": "CHEM202 ", "Name": "Organic Chemistry II", "Credits": 4, "Description": "Advanced organic synthesis and mechanisms"}}
+{"tableName": "Courses", "record": {"Course_code": "CHEM203 ", "Name": "Analytical Chemistry", "Credits": 3, "Description": "Chemical analysis and instrumentation"}}
+{"tableName": "Courses", "record": {"Course_code": "CHEM301 ", "Name": "Physical Chemistry", "Credits": 3, "Description": "Thermodynamics and kinetics of chemical systems"}}
+{"tableName": "Courses", "record": {"Course_code": "CHEM302 ", "Name": "Inorganic Chemistry", "Credits": 3, "Description": "Properties of inorganic compounds and coordination"}}
+{"tableName": "Courses", "record": {"Course_code": "CHEM303 ", "Name": "Biochemistry", "Credits": 3, "Description": "Chemical processes in biological systems"}}

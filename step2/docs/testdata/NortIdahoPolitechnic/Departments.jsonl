@@ -1,0 +1,5 @@
+{"tableName": "Departments", "record": {"Name": "Mathematics", "Department_code": "MATH    ", "Building_name": "Science Building", "Building_code": "SCI     "}}
+{"tableName": "Departments", "record": {"Name": "Physics", "Department_code": "PHYS    ", "Building_name": "Science Building", "Building_code": "SCI     "}}
+{"tableName": "Departments", "record": {"Name": "Engineering", "Department_code": "ENGR    ", "Building_name": "Engineering Hall", "Building_code": "ENGRHALL"}}
+{"tableName": "Departments", "record": {"Name": "Computer Science", "Department_code": "CSCI    ", "Building_name": "Technology Center", "Building_code": "TECH    "}}
+{"tableName": "Departments", "record": {"Name": "Chemistry", "Department_code": "CHEM    ", "Building_name": "Science Building", "Building_code": "SCI     "}}

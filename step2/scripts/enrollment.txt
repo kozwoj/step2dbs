@@ -1,0 +1,23 @@
+# Assumes RecordID == 1-based line number in the JSONL files.
+# Classes.jsonl line 1  => MATH101-01
+# Classes.jsonl line 22 => ENGR201-01
+
+# Enroll students into MATH101-01
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 1 -SetName "Enrollment" -MemberRecordID 1
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 1 -SetName "Enrollment" -MemberRecordID 2
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 1 -SetName "Enrollment" -MemberRecordID 6
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 1 -SetName "Enrollment" -MemberRecordID 10
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 1 -SetName "Enrollment" -MemberRecordID 17
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 1 -SetName "Enrollment" -MemberRecordID 21
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 1 -SetName "Enrollment" -MemberRecordID 26
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 1 -SetName "Enrollment" -MemberRecordID 31
+
+# Enroll students into ENGR201-01
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 22 -SetName "Enrollment" -MemberRecordID 146
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 22 -SetName "Enrollment" -MemberRecordID 147
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 22 -SetName "Enrollment" -MemberRecordID 149
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 22 -SetName "Enrollment" -MemberRecordID 151
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 22 -SetName "Enrollment" -MemberRecordID 170
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 22 -SetName "Enrollment" -MemberRecordID 175
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 22 -SetName "Enrollment" -MemberRecordID 194
+Add-SetMember -OwnerTableName "Classes" -OwnerRecordID 22 -SetName "Enrollment" -MemberRecordID 199

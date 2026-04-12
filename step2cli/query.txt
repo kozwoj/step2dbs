@@ -1,0 +1,3 @@
+Students 
+| where Students.State_or_Country == "Colorado" and Students.Year > 2 or Students.State_or_Country == "Nevada" and Students.Year == 1 
+| return Students.Student_id, Students.Last_name, Students.Year, Students.State_or_Country

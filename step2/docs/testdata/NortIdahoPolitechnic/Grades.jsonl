@@ -1,0 +1,317 @@
+{"tableName": "Grades", "record": {"Student_id": "NIP2209001", "Course_code": "MATH101 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209002", "Course_code": "MATH101 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209003", "Course_code": "MATH101 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209004", "Course_code": "MATH101 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209008", "Course_code": "MATH101 ", "In_major": true, "Grade": "B-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109001", "Course_code": "MATH101 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109002", "Course_code": "MATH101 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109004", "Course_code": "MATH101 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209015", "Course_code": "MATH101 ", "In_major": false, "Grade": "C+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209020", "Course_code": "MATH101 ", "In_major": false, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109015", "Course_code": "MATH101 ", "In_major": false, "Grade": "B-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109020", "Course_code": "MATH101 ", "In_major": false, "Grade": "C "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209005", "Course_code": "MATH102 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209006", "Course_code": "MATH102 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209009", "Course_code": "MATH102 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209010", "Course_code": "MATH102 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109003", "Course_code": "MATH102 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109006", "Course_code": "MATH102 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109008", "Course_code": "MATH102 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209022", "Course_code": "MATH102 ", "In_major": false, "Grade": "C+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209027", "Course_code": "MATH102 ", "In_major": false, "Grade": "B-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109025", "Course_code": "MATH102 ", "In_major": false, "Grade": "C "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209007", "Course_code": "MATH103 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209011", "Course_code": "MATH103 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209012", "Course_code": "MATH103 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209013", "Course_code": "MATH103 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109005", "Course_code": "MATH103 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109007", "Course_code": "MATH103 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109009", "Course_code": "MATH103 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209030", "Course_code": "MATH103 ", "In_major": false, "Grade": "C+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109030", "Course_code": "MATH103 ", "In_major": false, "Grade": "B-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209001", "Course_code": "MATH201 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209003", "Course_code": "MATH201 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209008", "Course_code": "MATH201 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109001", "Course_code": "MATH201 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109002", "Course_code": "MATH201 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109004", "Course_code": "MATH201 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109010", "Course_code": "MATH201 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209018", "Course_code": "MATH201 ", "In_major": false, "Grade": "C+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109022", "Course_code": "MATH201 ", "In_major": false, "Grade": "B-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209002", "Course_code": "MATH202 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209005", "Course_code": "MATH202 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209009", "Course_code": "MATH202 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109003", "Course_code": "MATH202 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109006", "Course_code": "MATH202 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109008", "Course_code": "MATH202 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109011", "Course_code": "MATH202 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209025", "Course_code": "MATH202 ", "In_major": false, "Grade": "C "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209004", "Course_code": "MATH203 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209006", "Course_code": "MATH203 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209010", "Course_code": "MATH203 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209012", "Course_code": "MATH203 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109005", "Course_code": "MATH203 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109007", "Course_code": "MATH203 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109009", "Course_code": "MATH203 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109012", "Course_code": "MATH203 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109001", "Course_code": "MATH301 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109002", "Course_code": "MATH301 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109004", "Course_code": "MATH301 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109006", "Course_code": "MATH301 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109010", "Course_code": "MATH301 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109014", "Course_code": "MATH301 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109003", "Course_code": "MATH302 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109005", "Course_code": "MATH302 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109007", "Course_code": "MATH302 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109008", "Course_code": "MATH302 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109011", "Course_code": "MATH302 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109015", "Course_code": "MATH302 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109009", "Course_code": "MATH303 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109012", "Course_code": "MATH303 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109013", "Course_code": "MATH303 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109016", "Course_code": "MATH303 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109017", "Course_code": "MATH303 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109020", "Course_code": "MATH303 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209026", "Course_code": "PHYS101 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209027", "Course_code": "PHYS101 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209028", "Course_code": "PHYS101 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209029", "Course_code": "PHYS101 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109026", "Course_code": "PHYS101 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109027", "Course_code": "PHYS101 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109028", "Course_code": "PHYS101 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209040", "Course_code": "PHYS101 ", "In_major": false, "Grade": "B-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209050", "Course_code": "PHYS101 ", "In_major": false, "Grade": "C+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109040", "Course_code": "PHYS101 ", "In_major": false, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109050", "Course_code": "PHYS101 ", "In_major": false, "Grade": "C "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209030", "Course_code": "PHYS102 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209031", "Course_code": "PHYS102 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209032", "Course_code": "PHYS102 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109029", "Course_code": "PHYS102 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109030", "Course_code": "PHYS102 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109031", "Course_code": "PHYS102 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209045", "Course_code": "PHYS102 ", "In_major": false, "Grade": "C+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209055", "Course_code": "PHYS102 ", "In_major": false, "Grade": "B-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109045", "Course_code": "PHYS102 ", "In_major": false, "Grade": "C "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209033", "Course_code": "PHYS103 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209034", "Course_code": "PHYS103 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209035", "Course_code": "PHYS103 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109032", "Course_code": "PHYS103 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109033", "Course_code": "PHYS103 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109034", "Course_code": "PHYS103 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209052", "Course_code": "PHYS103 ", "In_major": false, "Grade": "C+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109052", "Course_code": "PHYS103 ", "In_major": false, "Grade": "B-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209026", "Course_code": "PHYS201 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209028", "Course_code": "PHYS201 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209031", "Course_code": "PHYS201 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109026", "Course_code": "PHYS201 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109028", "Course_code": "PHYS201 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109030", "Course_code": "PHYS201 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109035", "Course_code": "PHYS201 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209027", "Course_code": "PHYS202 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209029", "Course_code": "PHYS202 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209032", "Course_code": "PHYS202 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109027", "Course_code": "PHYS202 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109029", "Course_code": "PHYS202 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109031", "Course_code": "PHYS202 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109036", "Course_code": "PHYS202 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209030", "Course_code": "PHYS203 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209033", "Course_code": "PHYS203 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209034", "Course_code": "PHYS203 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109032", "Course_code": "PHYS203 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109033", "Course_code": "PHYS203 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109034", "Course_code": "PHYS203 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109037", "Course_code": "PHYS203 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109026", "Course_code": "PHYS301 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109027", "Course_code": "PHYS301 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109028", "Course_code": "PHYS301 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109030", "Course_code": "PHYS301 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109035", "Course_code": "PHYS301 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109029", "Course_code": "PHYS302 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109031", "Course_code": "PHYS302 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109032", "Course_code": "PHYS302 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109034", "Course_code": "PHYS302 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109036", "Course_code": "PHYS302 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109033", "Course_code": "PHYS303 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109037", "Course_code": "PHYS303 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109038", "Course_code": "PHYS303 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109039", "Course_code": "PHYS303 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109041", "Course_code": "PHYS303 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209051", "Course_code": "ENGR101 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209052", "Course_code": "ENGR101 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209053", "Course_code": "ENGR101 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209054", "Course_code": "ENGR101 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109051", "Course_code": "ENGR101 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109052", "Course_code": "ENGR101 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109053", "Course_code": "ENGR101 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109054", "Course_code": "ENGR101 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209055", "Course_code": "ENGR102 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209056", "Course_code": "ENGR102 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209057", "Course_code": "ENGR102 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209058", "Course_code": "ENGR102 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109055", "Course_code": "ENGR102 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109056", "Course_code": "ENGR102 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109057", "Course_code": "ENGR102 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109058", "Course_code": "ENGR102 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209059", "Course_code": "ENGR103 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209060", "Course_code": "ENGR103 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209061", "Course_code": "ENGR103 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109059", "Course_code": "ENGR103 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109060", "Course_code": "ENGR103 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109061", "Course_code": "ENGR103 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109062", "Course_code": "ENGR103 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209051", "Course_code": "ENGR201 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209053", "Course_code": "ENGR201 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209056", "Course_code": "ENGR201 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109051", "Course_code": "ENGR201 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109052", "Course_code": "ENGR201 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109054", "Course_code": "ENGR201 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109060", "Course_code": "ENGR201 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209052", "Course_code": "ENGR202 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209054", "Course_code": "ENGR202 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209057", "Course_code": "ENGR202 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109053", "Course_code": "ENGR202 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109055", "Course_code": "ENGR202 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109056", "Course_code": "ENGR202 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109061", "Course_code": "ENGR202 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209055", "Course_code": "ENGR203 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209058", "Course_code": "ENGR203 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209059", "Course_code": "ENGR203 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109057", "Course_code": "ENGR203 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109058", "Course_code": "ENGR203 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109059", "Course_code": "ENGR203 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109062", "Course_code": "ENGR203 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109051", "Course_code": "ENGR301 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109052", "Course_code": "ENGR301 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109053", "Course_code": "ENGR301 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109054", "Course_code": "ENGR301 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109060", "Course_code": "ENGR301 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109055", "Course_code": "ENGR302 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109056", "Course_code": "ENGR302 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109057", "Course_code": "ENGR302 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109059", "Course_code": "ENGR302 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109061", "Course_code": "ENGR302 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109058", "Course_code": "ENGR303 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109062", "Course_code": "ENGR303 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109063", "Course_code": "ENGR303 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109064", "Course_code": "ENGR303 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109065", "Course_code": "ENGR303 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209076", "Course_code": "CSCI101 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209077", "Course_code": "CSCI101 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209078", "Course_code": "CSCI101 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209079", "Course_code": "CSCI101 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109076", "Course_code": "CSCI101 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109077", "Course_code": "CSCI101 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109078", "Course_code": "CSCI101 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109079", "Course_code": "CSCI101 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209080", "Course_code": "CSCI102 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209081", "Course_code": "CSCI102 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209082", "Course_code": "CSCI102 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209083", "Course_code": "CSCI102 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109080", "Course_code": "CSCI102 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109081", "Course_code": "CSCI102 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109082", "Course_code": "CSCI102 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109083", "Course_code": "CSCI102 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209084", "Course_code": "CSCI103 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209085", "Course_code": "CSCI103 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209001", "Course_code": "CSCI103 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109001", "Course_code": "CSCI103 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109002", "Course_code": "CSCI103 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109003", "Course_code": "CSCI103 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109004", "Course_code": "CSCI103 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209076", "Course_code": "CSCI201 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209078", "Course_code": "CSCI201 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209081", "Course_code": "CSCI201 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109076", "Course_code": "CSCI201 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109077", "Course_code": "CSCI201 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109079", "Course_code": "CSCI201 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109002", "Course_code": "CSCI201 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209077", "Course_code": "CSCI202 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209079", "Course_code": "CSCI202 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209082", "Course_code": "CSCI202 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109078", "Course_code": "CSCI202 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109080", "Course_code": "CSCI202 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109081", "Course_code": "CSCI202 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109003", "Course_code": "CSCI202 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209080", "Course_code": "CSCI203 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209083", "Course_code": "CSCI203 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209084", "Course_code": "CSCI203 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109082", "Course_code": "CSCI203 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109083", "Course_code": "CSCI203 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109001", "Course_code": "CSCI203 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109004", "Course_code": "CSCI203 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109076", "Course_code": "CSCI301 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109077", "Course_code": "CSCI301 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109078", "Course_code": "CSCI301 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109079", "Course_code": "CSCI301 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109002", "Course_code": "CSCI301 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109080", "Course_code": "CSCI302 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109081", "Course_code": "CSCI302 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109082", "Course_code": "CSCI302 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109001", "Course_code": "CSCI302 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109003", "Course_code": "CSCI302 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109083", "Course_code": "CSCI303 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109004", "Course_code": "CSCI303 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109005", "Course_code": "CSCI303 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109006", "Course_code": "CSCI303 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109007", "Course_code": "CSCI303 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209016", "Course_code": "CHEM101 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209017", "Course_code": "CHEM101 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209018", "Course_code": "CHEM101 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209019", "Course_code": "CHEM101 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109018", "Course_code": "CHEM101 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109019", "Course_code": "CHEM101 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109020", "Course_code": "CHEM101 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209066", "Course_code": "CHEM101 ", "In_major": false, "Grade": "B-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209070", "Course_code": "CHEM101 ", "In_major": false, "Grade": "C+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109066", "Course_code": "CHEM101 ", "In_major": false, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209020", "Course_code": "CHEM102 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209021", "Course_code": "CHEM102 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209022", "Course_code": "CHEM102 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109021", "Course_code": "CHEM102 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109022", "Course_code": "CHEM102 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109023", "Course_code": "CHEM102 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209072", "Course_code": "CHEM102 ", "In_major": false, "Grade": "C+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109070", "Course_code": "CHEM102 ", "In_major": false, "Grade": "B-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209023", "Course_code": "CHEM103 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209024", "Course_code": "CHEM103 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209025", "Course_code": "CHEM103 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109024", "Course_code": "CHEM103 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109025", "Course_code": "CHEM103 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109026", "Course_code": "CHEM103 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109027", "Course_code": "CHEM103 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209016", "Course_code": "CHEM201 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209018", "Course_code": "CHEM201 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209021", "Course_code": "CHEM201 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109018", "Course_code": "CHEM201 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109019", "Course_code": "CHEM201 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109021", "Course_code": "CHEM201 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109027", "Course_code": "CHEM201 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209017", "Course_code": "CHEM202 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209019", "Course_code": "CHEM202 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209022", "Course_code": "CHEM202 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109020", "Course_code": "CHEM202 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109022", "Course_code": "CHEM202 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109023", "Course_code": "CHEM202 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109028", "Course_code": "CHEM202 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209020", "Course_code": "CHEM203 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209023", "Course_code": "CHEM203 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2209024", "Course_code": "CHEM203 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109024", "Course_code": "CHEM203 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109025", "Course_code": "CHEM203 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109026", "Course_code": "CHEM203 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109029", "Course_code": "CHEM203 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109018", "Course_code": "CHEM301 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109019", "Course_code": "CHEM301 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109020", "Course_code": "CHEM301 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109021", "Course_code": "CHEM301 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109027", "Course_code": "CHEM301 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109022", "Course_code": "CHEM302 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109023", "Course_code": "CHEM302 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109024", "Course_code": "CHEM302 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109026", "Course_code": "CHEM302 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109028", "Course_code": "CHEM302 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109025", "Course_code": "CHEM303 ", "In_major": true, "Grade": "B+"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109029", "Course_code": "CHEM303 ", "In_major": true, "Grade": "A "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109030", "Course_code": "CHEM303 ", "In_major": true, "Grade": "A-"}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109031", "Course_code": "CHEM303 ", "In_major": true, "Grade": "B "}}
+{"tableName": "Grades", "record": {"Student_id": "NIP2109032", "Course_code": "CHEM303 ", "In_major": true, "Grade": "B+"}}

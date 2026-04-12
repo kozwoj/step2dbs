@@ -1,0 +1,11 @@
+SCHEMA TestOptional
+
+TABLE Test1 (
+    id INT PRIMARY KEY OPTIONAL,
+    name STRING
+);
+
+TABLE Test2 (
+    id INT PRIMARY KEY,
+    ref INT FOREIGN KEY Test1 OPTIONAL
+);
