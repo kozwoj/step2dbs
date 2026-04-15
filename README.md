@@ -32,7 +32,15 @@ The `indexing` module takes no dependency of other modules, and therefore can be
 
 ## Test Database
 
-The step2 module includes data and functions to populate a small test database called NorthIdahoPolitechnic. The instructions how to create the database and the input data are in `step2\docs\testdata\NortIdahoPolitechnic`. All sample queries in the step2query module are based on the schema of that database - see `step2\docs\testdata\College.ddl`. 
+The step2 module includes data and functions to populate a small test database called NorthIdahoPolitechnic. Three ways to create and populate that DB are described in `step2\docs\testdata\NortIdahoPolitechnic\Data_Set_Description.md`.
+
+The schema of the test database is defined in `step2\docs\testdata\College.ddl`. All sample queries in the `step2query` module are based on that schema.   
+
+## The CLI and STEP2 REST Interfaces
+ 
+Description of the STEP2 CLI and how to build it are in `step2cli\README.md`. The CLI can be used to query the test DB, validate new schemas, or run the STEP2 server engine, which exposes STEP2 REST interface. 
+
+The simplest way to exercise the STEP2 REST interface is to use the PowerShell functions provided in `step2\scripts\step2.ps1` script file. Each function in that file corresponds to (calls into) one STEP2 DML command. The DML commands are described in `step2\docs\architecture\step2_DML_commands.md`.
 
 ## Local Development
 

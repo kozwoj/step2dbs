@@ -2,9 +2,28 @@ The directory contains test data for North Idaho Politechnic (NIP) DB.
 
 ## Creating an Instance of the NIP Database
 
-The code crating the test NIP DB using the files in this director is in the package `testdb`. There are two ways to create a populated NIP database instance.
+The code creating the test NIP DB using the files in this directory is in the package `testdb`. There are three ways to create a populated NIP database instance.
 
-### Option 1: Using TestLoadNIPDatabase (simplest)
+### Option 1: Using the `createnipdb` command (simplest)
+
+Build and run the standalone tool:
+
+```
+cd step2
+go run ./testdb/cmd/createnipdb C:\temp\nip_db
+```
+
+Or build it first and run the binary:
+
+```
+cd step2
+go build -o createnipdb.exe ./testdb/cmd/createnipdb
+.\createnipdb.exe C:\temp\nip_db
+```
+
+The populated database will be at `C:\temp\nip_db\College`.
+
+### Option 2: Using TestLoadNIPDatabase
 
 The test `TestLoadNIPDatabase` in `db/db_info_test.go` can create and populate the database to a directory of your choice.
 
@@ -15,9 +34,9 @@ The test `TestLoadNIPDatabase` in `db/db_info_test.go` can create and populate t
    ```
    go test ./db/ -run TestLoadNIPDatabase -v
    ```
-5. The populated database will be at `<tempDir>\nip_test_db\College`
+5. The populated database will be at `C:\temp\nip_test_db\College` (or directory of your choice)
 
-### Option 2: Using CreateAndPopulateNIPDatabase as a library
+### Option 3: Using CreateAndPopulateNIPDatabase as a library function
 
 Import the `testdb` package and call `CreateAndPopulateNIPDatabase` with a target directory:
 
