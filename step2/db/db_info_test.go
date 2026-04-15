@@ -1,9 +1,10 @@
 package db_test
 
 import (
+	"testing"
+
 	"github.com/kozwoj/step2/db"
 	"github.com/kozwoj/step2/testdb"
-	"testing"
 )
 
 // TestLoadNIPDatabase creates and populates the NIP database with test data
@@ -28,7 +29,7 @@ func TestLoadNIPDatabase(t *testing.T) {
 		"Courses":     45,
 		"Teachers":    85,
 		"Students":    337,
-		"Classes":     45,
+		"Classes":     46,
 		"Grades":      317,
 		"Majors":      14,
 	}
@@ -47,7 +48,7 @@ func TestLoadNIPDatabase(t *testing.T) {
 	for _, count := range stats {
 		totalRecords += count
 	}
-	expectedTotal := 848 // 5 + 45 + 85 + 337 + 45 + 317 + 14
+	expectedTotal := 865 // 5 + 45 + 85 + 337 + 46 + 317 + 14 + 16 (Enrollment)
 	t.Logf("  %-15s: %3d records", "TOTAL", totalRecords)
 	if totalRecords != expectedTotal {
 		t.Errorf("Expected total of %d records, got %d", expectedTotal, totalRecords)

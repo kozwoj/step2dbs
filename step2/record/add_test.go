@@ -3,8 +3,9 @@ package record
 import (
 	"encoding/binary"
 	"path/filepath"
-	"github.com/kozwoj/step2/db"
 	"testing"
+
+	"github.com/kozwoj/step2/db"
 )
 
 // TestAddNewRecord_Departments tests adding department records to the College database
@@ -24,7 +25,7 @@ func TestAddNewRecord_Departments(t *testing.T) {
 	}
 
 	// Open the database
-	dbDir := filepath.Join(tempDir, "college")
+	dbDir := filepath.Join(tempDir, "College")
 	t.Log("Opening database...")
 	err = db.OpenDB(dbDir)
 	if err != nil {
@@ -151,7 +152,7 @@ func TestAddNewRecord_ForeignKeys(t *testing.T) {
 		t.Fatalf("CreateDB failed: %v", err)
 	}
 
-	dbDir := filepath.Join(tempDir, "college")
+	dbDir := filepath.Join(tempDir, "College")
 	t.Log("Opening database...")
 	err = db.OpenDB(dbDir)
 	if err != nil {
@@ -217,17 +218,17 @@ func TestAddNewRecord_ForeignKeys(t *testing.T) {
 	// Step 4: Try to add student with invalid advisor foreign key (should fail)
 	t.Run("Add student with invalid advisor FK - should fail", func(t *testing.T) {
 		recordFields := map[string]interface{}{
-			"First_name":  "Jane",
-			"Last_name":   "Doe",
-			"Gender":      "F",
-			"Birth_date":  "2004-05-12",
+			"First_name":       "Jane",
+			"Last_name":        "Doe",
+			"Gender":           "F",
+			"Birth_date":       "2004-05-12",
 			"State_or_Country": "Idaho",
-			"Start_date":  "2023-09-01",
-			"Student_id":  "S000000001",
-			"Major":       "Computer Science         ",
-			"Advisor":     "T9999999",
-			"Year":        float64(2),
-			"Credits":     float64(45),
+			"Start_date":       "2023-09-01",
+			"Student_id":       "S000000001",
+			"Major":            "Computer Science         ",
+			"Advisor":          "T9999999",
+			"Year":             float64(2),
+			"Credits":          float64(45),
 		}
 
 		_, err := AddNewRecord("Students", recordFields, dbDef)
@@ -241,17 +242,17 @@ func TestAddNewRecord_ForeignKeys(t *testing.T) {
 	// Step 5: Add student with valid advisor foreign key (should succeed)
 	t.Run("Add student with valid advisor FK - should succeed", func(t *testing.T) {
 		recordFields := map[string]interface{}{
-			"First_name":  "Jane",
-			"Last_name":   "Doe",
-			"Gender":      "F",
-			"Birth_date":  "2004-05-12",
+			"First_name":       "Jane",
+			"Last_name":        "Doe",
+			"Gender":           "F",
+			"Birth_date":       "2004-05-12",
 			"State_or_Country": "Idaho",
-			"Start_date":  "2023-09-01",
-			"Student_id":  "S000000001",
-			"Major":       "Computer Science         ",
-			"Advisor":     "T0000001",
-			"Year":        float64(2),
-			"Credits":     float64(45),
+			"Start_date":       "2023-09-01",
+			"Student_id":       "S000000001",
+			"Major":            "Computer Science         ",
+			"Advisor":          "T0000001",
+			"Year":             float64(2),
+			"Credits":          float64(45),
 		}
 
 		recordID, err := AddNewRecord("Students", recordFields, dbDef)

@@ -2,8 +2,9 @@ package record
 
 import (
 	"path/filepath"
-	"github.com/kozwoj/step2/db"
 	"testing"
+
+	"github.com/kozwoj/step2/db"
 )
 
 // TestUpdateRecord_BasicFields tests updating various field types in the AllTypes table
@@ -36,17 +37,17 @@ func TestUpdateRecord_BasicFields(t *testing.T) {
 	// Add an initial record
 	t.Run("Add initial record", func(t *testing.T) {
 		recordFields := map[string]interface{}{
-			"Small_int_value":        float64(100),
-			"Integer_value":          float64(1000),
-			"Big_int_value":          float64(100000),
-			"Decimal_value":          "123.45",
-			"Float_value":            3.14159,
-			"String_size_value":      "Original string",
-			"String_no_size_value":   "Another original",
-			"Char_array_value":       "CHAR000000000AB",
-			"Boolean_value":          true,
-			"Date_value":             "2024-01-15",
-			"Time_value":             "9:30:00.000",
+			"Small_int_value":      float64(100),
+			"Integer_value":        float64(1000),
+			"Big_int_value":        float64(100000),
+			"Decimal_value":        "123.45",
+			"Float_value":          3.14159,
+			"String_size_value":    "Original string",
+			"String_no_size_value": "Another original",
+			"Char_array_value":     "CHAR000000000AB",
+			"Boolean_value":        true,
+			"Date_value":           "2024-01-15",
+			"Time_value":           "9:30:00.000",
 		}
 
 		recordID, err := AddNewRecord("AllTypes", recordFields, dbDef)
@@ -254,17 +255,17 @@ func TestUpdateRecord_PrimaryKeyValidation(t *testing.T) {
 
 	// Add an initial record
 	recordFields := map[string]interface{}{
-		"Small_int_value":        float64(100),
-		"Integer_value":          float64(1000),
-		"Big_int_value":          float64(100000),
-		"Decimal_value":          "100.00",
-		"Float_value":            3.14,
-		"String_size_value":      "Test",
-		"String_no_size_value":   "Test",
-		"Char_array_value":       "CHAR0000000TEST",
-		"Boolean_value":          true,
-		"Date_value":             "2024-01-01",
-		"Time_value":             "10:00:00.000",
+		"Small_int_value":      float64(100),
+		"Integer_value":        float64(1000),
+		"Big_int_value":        float64(100000),
+		"Decimal_value":        "100.00",
+		"Float_value":          3.14,
+		"String_size_value":    "Test",
+		"String_no_size_value": "Test",
+		"Char_array_value":     "CHAR0000000TEST",
+		"Boolean_value":        true,
+		"Date_value":           "2024-01-01",
+		"Time_value":           "10:00:00.000",
 	}
 
 	recordID, err := AddNewRecord("AllTypes", recordFields, dbDef)
@@ -332,17 +333,17 @@ func TestUpdateRecord_ValidationErrors(t *testing.T) {
 
 	// Add an initial record
 	recordFields := map[string]interface{}{
-		"Small_int_value":        float64(100),
-		"Integer_value":          float64(1000),
-		"Big_int_value":          float64(100000),
-		"Decimal_value":          "100.00",
-		"Float_value":            3.14,
-		"String_size_value":      "Test",
-		"String_no_size_value":   "Test",
-		"Char_array_value":       "CHAR0000000TEST",
-		"Boolean_value":          true,
-		"Date_value":             "2024-01-01",
-		"Time_value":             "10:00:00.000",
+		"Small_int_value":      float64(100),
+		"Integer_value":        float64(1000),
+		"Big_int_value":        float64(100000),
+		"Decimal_value":        "100.00",
+		"Float_value":          3.14,
+		"String_size_value":    "Test",
+		"String_no_size_value": "Test",
+		"Char_array_value":     "CHAR0000000TEST",
+		"Boolean_value":        true,
+		"Date_value":           "2024-01-01",
+		"Time_value":           "10:00:00.000",
 	}
 
 	recordID, err := AddNewRecord("AllTypes", recordFields, dbDef)
@@ -433,7 +434,7 @@ func TestUpdateRecord_StringFieldsWithDictionary(t *testing.T) {
 		t.Fatalf("CreateDB failed: %v", err)
 	}
 
-	dbDir := filepath.Join(tempDir, "college")
+	dbDir := filepath.Join(tempDir, "College")
 	err = db.OpenDB(dbDir)
 	if err != nil {
 		t.Fatalf("OpenDB failed: %v", err)
@@ -445,10 +446,10 @@ func TestUpdateRecord_StringFieldsWithDictionary(t *testing.T) {
 	// Add initial department record
 	t.Run("Add initial record", func(t *testing.T) {
 		recordFields := map[string]interface{}{
-			"Name":           "Computer Science",
+			"Name":            "Computer Science",
 			"Department_code": "COMPSCI ",
-			"Building_name":  "Engineering Hall",
-			"Building_code":  "ENG0001H",
+			"Building_name":   "Engineering Hall",
+			"Building_code":   "ENG0001H",
 		}
 
 		recordID, err := AddNewRecord("Departments", recordFields, dbDef)
@@ -537,10 +538,10 @@ func TestUpdateRecord_ForeignKeyValidation(t *testing.T) {
 	// Add a department (referenced table)
 	t.Run("Add department", func(t *testing.T) {
 		recordFields := map[string]interface{}{
-			"Name":           "Mathematics",
+			"Name":            "Mathematics",
 			"Department_code": "MATH    ",
-			"Building_name":  "Science Hall",
-			"Building_code":  "SCI0001H",
+			"Building_name":   "Science Hall",
+			"Building_code":   "SCI0001H",
 		}
 
 		recordID, err := AddNewRecord("Departments", recordFields, dbDef)
@@ -553,12 +554,12 @@ func TestUpdateRecord_ForeignKeyValidation(t *testing.T) {
 	// Add a teacher (with foreign key to department)
 	t.Run("Add teacher", func(t *testing.T) {
 		recordFields := map[string]interface{}{
-			"Employee_id":  "EMP00001",
-			"First_name":   "John",
-			"Last_name":    "Smith",
+			"Employee_id":   "EMP00001",
+			"First_name":    "John",
+			"Last_name":     "Smith",
 			"Building_code": "SCI0001H",
-			"Office":       "Room 101  ",
-			"Works_for":    "MATH    ",
+			"Office":        "Room 101  ",
+			"Works_for":     "MATH    ",
 		}
 
 		recordID, err := AddNewRecord("Teachers", recordFields, dbDef)

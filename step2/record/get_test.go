@@ -2,8 +2,9 @@ package record
 
 import (
 	"path/filepath"
-	"github.com/kozwoj/step2/db"
 	"testing"
+
+	"github.com/kozwoj/step2/db"
 )
 
 // TestGetRecordID tests mapping primary key to recordID
@@ -39,9 +40,9 @@ func TestGetRecordID(t *testing.T) {
 
 		for _, rec := range records {
 			recordFields := map[string]interface{}{
-			"Integer_value":        float64(rec.pkValue),
-			"Small_int_value":      float64(1),
-			"Big_int_value":        float64(1000),
+				"Integer_value":        float64(rec.pkValue),
+				"Small_int_value":      float64(1),
+				"Big_int_value":        float64(1000),
 				"Decimal_value":        "10.50",
 				"Float_value":          1.5,
 				"String_size_value":    rec.name,
@@ -116,7 +117,7 @@ func TestGetRecordID_CharPrimaryKey(t *testing.T) {
 		t.Fatalf("CreateDB failed: %v", err)
 	}
 
-	dbDir := filepath.Join(tempDir, "college")
+	dbDir := filepath.Join(tempDir, "College")
 	err = db.OpenDB(dbDir)
 	if err != nil {
 		t.Fatalf("OpenDB failed: %v", err)
@@ -424,7 +425,7 @@ func TestGetRecordByKey_CharPrimaryKey(t *testing.T) {
 		t.Fatalf("CreateDB failed: %v", err)
 	}
 
-	dbDir := filepath.Join(tempDir, "college")
+	dbDir := filepath.Join(tempDir, "College")
 	err = db.OpenDB(dbDir)
 	if err != nil {
 		t.Fatalf("OpenDB failed: %v", err)
@@ -636,66 +637,65 @@ func TestGetRecordsByString(t *testing.T) {
 	})
 }
 
-
 // TestGetRecordsBySubstring tests retrieving recordIDs by STRING field prefix search
 func TestGetRecordsBySubstring(t *testing.T) {
-// Setup - use Customer_Employee schema
-tempDir := t.TempDir()
-schemaFile := filepath.Join("..", "docs", "testdata", "Customer_Employee.ddl")
+	// Setup - use Customer_Employee schema
+	tempDir := t.TempDir()
+	schemaFile := filepath.Join("..", "docs", "testdata", "Customer_Employee.ddl")
 
-err := db.CreateDB(tempDir, schemaFile)
-if err != nil {
-t.Fatalf("CreateDB failed: %v", err)
-}
+	err := db.CreateDB(tempDir, schemaFile)
+	if err != nil {
+		t.Fatalf("CreateDB failed: %v", err)
+	}
 
-dbDir := filepath.Join(tempDir, "TestSchema")
-err = db.OpenDB(dbDir)
-if err != nil {
-t.Fatalf("OpenDB failed: %v", err)
-}
-defer db.CloseDB()
+	dbDir := filepath.Join(tempDir, "TestSchema")
+	err = db.OpenDB(dbDir)
+	if err != nil {
+		t.Fatalf("OpenDB failed: %v", err)
+	}
+	defer db.CloseDB()
 
-dbDef := db.Definition()
+	dbDef := db.Definition()
 
-// Add test customers
-t.Run("Add test customers", func(t *testing.T) {
-customers := []struct {
-id      string
-contact string
-}{
-{"CUST000001", "Smith John"},
-{"CUST000002", "Smithson Alice"},
-{"CUST000003", "Johnson Mary"},
-{"CUST000004", "Smithers Bob"},
-{"CUST000005", "Kowalski Tom"},
-{"CUST000006", "Kozaczynski Wojtek"},
-{"CUST000007", "Anderson Jane"},
-}
+	// Add test customers
+	t.Run("Add test customers", func(t *testing.T) {
+		customers := []struct {
+			id      string
+			contact string
+		}{
+			{"CUST000001", "Smith John"},
+			{"CUST000002", "Smithson Alice"},
+			{"CUST000003", "Johnson Mary"},
+			{"CUST000004", "Smithers Bob"},
+			{"CUST000005", "Kowalski Tom"},
+			{"CUST000006", "Kozaczynski Wojtek"},
+			{"CUST000007", "Anderson Jane"},
+		}
 
-for _, cust := range customers {
-recordFields := map[string]interface{}{
-"Customer_id":   cust.id,
-"Company_name":  "ACME Corp",
-"Contact_name":  cust.contact,
-"Contact_title": "Manager",
-"Address":       "123 Main St",
-"City":          "Seattle",
-"Region":        "WA",
-"Postal_code":   "98101",
-"Country":       "USA",
-"Phone":         "555-1234",
-"Fax":           "555-5678",
-}
+		for _, cust := range customers {
+			recordFields := map[string]interface{}{
+				"Customer_id":   cust.id,
+				"Company_name":  "ACME Corp",
+				"Contact_name":  cust.contact,
+				"Contact_title": "Manager",
+				"Address":       "123 Main St",
+				"City":          "Seattle",
+				"Region":        "WA",
+				"Postal_code":   "98101",
+				"Country":       "USA",
+				"Phone":         "555-1234",
+				"Fax":           "555-5678",
+			}
 
-_, err := AddNewRecord("Customers", recordFields, dbDef)
-if err != nil {
-t.Fatalf("Failed to add customer %s: %v", cust.id, err)
-}
-}
-t.Log("Added 7 test customers")
-})
+			_, err := AddNewRecord("Customers", recordFields, dbDef)
+			if err != nil {
+				t.Fatalf("Failed to add customer %s: %v", cust.id, err)
+			}
+		}
+		t.Log("Added 7 test customers")
+	})
 
-// Search with "Smith" prefix
+	// Search with "Smith" prefix
 	t.Run("Search Contact_name starting with 'Smith'", func(t *testing.T) {
 		recordIDs, err := GetRecordsBySubstring("Customers", "Contact_name", "Smith", dbDef)
 		if err != nil {
@@ -706,10 +706,10 @@ t.Log("Added 7 test customers")
 			t.Errorf("Expected 3 records, got %d", len(recordIDs))
 		} else {
 			t.Logf("Found %d contacts with last name starting with 'Smith'", len(recordIDs))
-}
-})
+		}
+	})
 
-// Search with "Koz" prefix
+	// Search with "Koz" prefix
 	t.Run("Search Contact_name starting with 'Koz'", func(t *testing.T) {
 		recordIDs, err := GetRecordsBySubstring("Customers", "Contact_name", "Koz", dbDef)
 		if err != nil {
@@ -718,86 +718,86 @@ t.Log("Added 7 test customers")
 
 		if len(recordIDs) != 1 {
 			t.Errorf("Expected 1 record, got %d", len(recordIDs))
-}
-})
+		}
+	})
 
-// Search with "J" prefix
+	// Search with "J" prefix
 	t.Run("Search Contact_name starting with 'J'", func(t *testing.T) {
 		recordIDs, err := GetRecordsBySubstring("Customers", "Contact_name", "J", dbDef)
-if err != nil {
-t.Fatalf("GetRecordsBySubstring failed: %v", err)
-}
+		if err != nil {
+			t.Fatalf("GetRecordsBySubstring failed: %v", err)
+		}
 
-if len(recordIDs) != 1 {
-t.Errorf("Expected 1 record, got %d", len(recordIDs))
-}
-})
+		if len(recordIDs) != 1 {
+			t.Errorf("Expected 1 record, got %d", len(recordIDs))
+		}
+	})
 
-// Search with no matches
-t.Run("Search with no matches", func(t *testing.T) {
-recordIDs, err := GetRecordsBySubstring("Customers", "Contact_name", "Xyz", dbDef)
-if err != nil {
-t.Fatalf("GetRecordsBySubstring failed: %v", err)
-}
+	// Search with no matches
+	t.Run("Search with no matches", func(t *testing.T) {
+		recordIDs, err := GetRecordsBySubstring("Customers", "Contact_name", "Xyz", dbDef)
+		if err != nil {
+			t.Fatalf("GetRecordsBySubstring failed: %v", err)
+		}
 
-if len(recordIDs) != 0 {
-t.Errorf("Expected 0 records, got %d", len(recordIDs))
-}
-})
+		if len(recordIDs) != 0 {
+			t.Errorf("Expected 0 records, got %d", len(recordIDs))
+		}
+	})
 
-// Test 8-character substring (boundary)
-t.Run("8-character substring", func(t *testing.T) {
-recordIDs, err := GetRecordsBySubstring("Customers", "Contact_name", "Smithson", dbDef)
-if err != nil {
-t.Fatalf("GetRecordsBySubstring failed: %v", err)
-}
+	// Test 8-character substring (boundary)
+	t.Run("8-character substring", func(t *testing.T) {
+		recordIDs, err := GetRecordsBySubstring("Customers", "Contact_name", "Smithson", dbDef)
+		if err != nil {
+			t.Fatalf("GetRecordsBySubstring failed: %v", err)
+		}
 
-if len(recordIDs) != 1 {
-t.Errorf("Expected 1 record, got %d", len(recordIDs))
-}
-})
+		if len(recordIDs) != 1 {
+			t.Errorf("Expected 1 record, got %d", len(recordIDs))
+		}
+	})
 
-// Test substring exceeds 8 characters
-t.Run("Substring exceeds 8 characters", func(t *testing.T) {
-_, err := GetRecordsBySubstring("Customers", "Contact_name", "VeryLongName", dbDef)
-if err == nil {
-t.Error("Expected error for substring > 8 characters")
-} else {
-t.Logf("Correctly rejected long substring: %v", err)
-}
-})
+	// Test substring exceeds 8 characters
+	t.Run("Substring exceeds 8 characters", func(t *testing.T) {
+		_, err := GetRecordsBySubstring("Customers", "Contact_name", "VeryLongName", dbDef)
+		if err == nil {
+			t.Error("Expected error for substring > 8 characters")
+		} else {
+			t.Logf("Correctly rejected long substring: %v", err)
+		}
+	})
 
-// Test empty substring
-t.Run("Empty substring", func(t *testing.T) {
-_, err := GetRecordsBySubstring("Customers", "Contact_name", "", dbDef)
-if err == nil {
-t.Error("Expected error for empty substring")
-}
-})
+	// Test empty substring
+	t.Run("Empty substring", func(t *testing.T) {
+		_, err := GetRecordsBySubstring("Customers", "Contact_name", "", dbDef)
+		if err == nil {
+			t.Error("Expected error for empty substring")
+		}
+	})
 
-// Test invalid table name
-t.Run("Invalid table name", func(t *testing.T) {
-_, err := GetRecordsBySubstring("InvalidTable", "Contact_name", "Smith", dbDef)
-if err == nil {
-t.Error("Expected error for invalid table name")
-}
-})
+	// Test invalid table name
+	t.Run("Invalid table name", func(t *testing.T) {
+		_, err := GetRecordsBySubstring("InvalidTable", "Contact_name", "Smith", dbDef)
+		if err == nil {
+			t.Error("Expected error for invalid table name")
+		}
+	})
 
-// Test invalid field name
-t.Run("Invalid field name", func(t *testing.T) {
-_, err := GetRecordsBySubstring("Customers", "InvalidField", "Smith", dbDef)
-if err == nil {
-t.Error("Expected error for invalid field name")
-}
-})
+	// Test invalid field name
+	t.Run("Invalid field name", func(t *testing.T) {
+		_, err := GetRecordsBySubstring("Customers", "InvalidField", "Smith", dbDef)
+		if err == nil {
+			t.Error("Expected error for invalid field name")
+		}
+	})
 
-// Test non-STRING field
-t.Run("Non-STRING field", func(t *testing.T) {
-_, err := GetRecordsBySubstring("Customers", "Customer_id", "CUST", dbDef)
-if err == nil {
-t.Error("Expected error for CHAR field")
-} else {
-t.Logf("Correctly rejected CHAR field: %v", err)
-}
-})
+	// Test non-STRING field
+	t.Run("Non-STRING field", func(t *testing.T) {
+		_, err := GetRecordsBySubstring("Customers", "Customer_id", "CUST", dbDef)
+		if err == nil {
+			t.Error("Expected error for CHAR field")
+		} else {
+			t.Logf("Correctly rejected CHAR field: %v", err)
+		}
+	})
 }

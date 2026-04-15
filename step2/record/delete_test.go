@@ -4,8 +4,9 @@ import (
 	"encoding/binary"
 	"fmt"
 	"path/filepath"
-	"github.com/kozwoj/step2/db"
 	"testing"
+
+	"github.com/kozwoj/step2/db"
 )
 
 // TestDeleteRecord_BasicDeletion tests basic record deletion
@@ -225,7 +226,7 @@ func TestDeleteRecord_WithStringFields(t *testing.T) {
 		t.Fatalf("CreateDB failed: %v", err)
 	}
 
-	dbDir := filepath.Join(tempDir, "college")
+	dbDir := filepath.Join(tempDir, "College")
 	err = db.OpenDB(dbDir)
 	if err != nil {
 		t.Fatalf("OpenDB failed: %v", err)
@@ -304,7 +305,7 @@ func TestDeleteRecord_WithSets(t *testing.T) {
 		t.Fatalf("CreateDB failed: %v", err)
 	}
 
-	dbDir := filepath.Join(tempDir, "college")
+	dbDir := filepath.Join(tempDir, "College")
 	err = db.OpenDB(dbDir)
 	if err != nil {
 		t.Fatalf("OpenDB failed: %v", err)

@@ -3,8 +3,9 @@ package record
 import (
 	"encoding/json"
 	"path/filepath"
-	"github.com/kozwoj/step2/db"
 	"testing"
+
+	"github.com/kozwoj/step2/db"
 )
 
 // TestValidateRecord tests the ValidateRecord function using the AllTypes table schema
@@ -322,7 +323,7 @@ func TestValidateRecord_PrimaryKeyTypeCheck(t *testing.T) {
 	}
 
 	// Open the database
-	dbDir := filepath.Join(tempDir, "college")
+	dbDir := filepath.Join(tempDir, "College")
 	t.Log("Opening database...")
 	err = db.OpenDB(dbDir)
 	if err != nil {

@@ -3,8 +3,9 @@ package record
 import (
 	"encoding/binary"
 	"path/filepath"
-	"github.com/kozwoj/step2/db"
 	"testing"
+
+	"github.com/kozwoj/step2/db"
 )
 
 // TestAddSetMember_GetSetMembers tests adding teachers to a department's Faculty set
@@ -24,7 +25,7 @@ func TestAddSetMember_GetSetMembers(t *testing.T) {
 	}
 
 	// Open the database
-	dbDir := filepath.Join(tempDir, "college")
+	dbDir := filepath.Join(tempDir, "College")
 	t.Log("Opening database...")
 	err = db.OpenDB(dbDir)
 	if err != nil {

@@ -2,9 +2,11 @@ package record
 
 import (
 	"errors"
-	"github.com/kozwoj/step2/db"
+	"math"
 	"strings"
 	"time"
+
+	"github.com/kozwoj/step2/db"
 )
 
 /*
@@ -311,7 +313,10 @@ func ValidateField(value interface{}, fieldDesc *db.FieldDescription) (interface
 			return nil, errors.New("invalid type for field: " + fieldDesc.Name)
 		}
 		// check if floatValue is an integer (int64) without fractional part
-		if floatValue != float64(int64(floatValue)) {
+		if floatValue != math.Trunc(floatValue) {
+			return nil, errors.New("invalid value for field: " + fieldDesc.Name)
+		}
+		if floatValue < math.MinInt64 || floatValue > math.MaxInt64 {
 			return nil, errors.New("invalid value for field: " + fieldDesc.Name)
 		}
 		return int64(floatValue), nil
