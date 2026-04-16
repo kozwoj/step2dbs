@@ -5,17 +5,15 @@ Command-line interface for the [step2](https://github.com/kozwoj/step2) database
 - validating a database schema
 - executing STEP query language query
 
-## Install
+## Building CLI from a clone
 
 ```
-go install github.com/kozwoj/step2cli@latest
-```
-
-Or build from source:
-
-```
+git clone https://github.com/kozwoj/step2dbs
+cd step2dbs/step2cli
 go build -o step2.exe .
 ```
+
+This should build the CLI executable in the step2cli directory. 
 
 ## Commands
 
