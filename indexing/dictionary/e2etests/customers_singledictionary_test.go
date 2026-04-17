@@ -5,9 +5,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
-	"github.com/kozwoj/indexing/dictionary/dictionary"
+	"path/filepath"
 	"testing"
 	"time"
+
+	"github.com/kozwoj/indexing/dictionary/dictionary"
 )
 
 // SingleDictCustomerRecord is the fixed-length record stored in memory.
@@ -46,7 +48,7 @@ func NewSingleDictStore(basePath string, cleanExisting bool, blockSizes dictiona
 		Records: make([]SingleDictCustomerRecord, 0),
 	}
 
-	dictPath := basePath + "\\customer_strings_dict"
+	dictPath := filepath.Join(basePath, "customer_strings_dict")
 
 	// Try to open existing dictionary first
 	dict, err := dictionary.OpenDictionary(dictPath, "CustomerStrings")
@@ -211,7 +213,7 @@ func (s *SingleDictStore) IngestCustomersFromFile(filePath string) error {
 
 // TestCustomersSingleDictionary tests ingesting Northwind customers with a single shared dictionary
 func TestCustomersSingleDictionary(t *testing.T) {
-	basePath := "C:\\temp\\northwind\\customers_singledict_test"
+	basePath := filepath.Join(t.TempDir(), "customers_singledict_test")
 	blockSizes := dictionary.DictionaryBlockSizes{
 		PostingsBlockSize: 512,
 		IndexBlockSize:    512,

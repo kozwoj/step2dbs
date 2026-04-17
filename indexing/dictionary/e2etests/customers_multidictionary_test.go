@@ -6,9 +6,10 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"github.com/kozwoj/indexing/dictionary/dictionary"
 	"testing"
 	"time"
+
+	"github.com/kozwoj/indexing/dictionary/dictionary"
 )
 
 // CustomerJSON represents the JSON structure from the .sjo file
@@ -81,7 +82,7 @@ func NewMultiDictStore(basePath string, cleanExisting bool, blockSizes dictionar
 
 	// Helper to create or open a dictionary
 	openOrCreateDict := func(fieldName string) (*dictionary.Dictionary, error) {
-		dirPath := basePath + "\\" + fieldName + "_dict"
+		dirPath := filepath.Join(basePath, fieldName+"_dict")
 
 		// Try to open existing dictionary first
 		dict, err := dictionary.OpenDictionary(dirPath, fieldName)

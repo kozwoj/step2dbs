@@ -2,13 +2,15 @@ package dictionary
 
 import (
 	"os"
-	"github.com/kozwoj/indexing/primindex"
+	"path/filepath"
 	"testing"
+
+	"github.com/kozwoj/indexing/primindex"
 )
 
 // Test constants for prefix index
 const (
-	testPrefixBlockSize   = 1024
+	testPrefixBlockSize     = 1024
 	testPrefixInitialBlocks = 10
 )
 
@@ -28,14 +30,14 @@ func TestCreatePrefixIndex(t *testing.T) {
 	}
 
 	// Verify the index file was created
-	prefixPath := dirPath + "\\prefix.dat"
+	prefixPath := filepath.Join(dirPath, "prefix.dat")
 	if _, err := os.Stat(prefixPath); os.IsNotExist(err) {
 		t.Fatalf("prefix.dat file was not created")
 	}
 }
 
 func TestOpenPrefixIndex(t *testing.T) {
-	dirPath := "test_data\\test_prefix_open"
+	dirPath := filepath.Join("test_data", "test_prefix_open")
 	os.RemoveAll(dirPath)
 	defer os.RemoveAll(dirPath)
 
@@ -64,7 +66,7 @@ func TestOpenPrefixIndex(t *testing.T) {
 }
 
 func TestOpenPrefixIndexNotExists(t *testing.T) {
-	dirPath := "test_data\\test_prefix_not_exists"
+	dirPath := filepath.Join("test_data", "test_prefix_not_exists")
 	os.RemoveAll(dirPath)
 	defer os.RemoveAll(dirPath)
 
@@ -85,7 +87,7 @@ func TestOpenPrefixIndexNotExists(t *testing.T) {
 }
 
 func TestAddPrefixEntry(t *testing.T) {
-	dirPath := "test_data\\test_add_prefix_entry"
+	dirPath := filepath.Join("test_data", "test_add_prefix_entry")
 	os.RemoveAll(dirPath)
 	defer os.RemoveAll(dirPath)
 
@@ -144,7 +146,7 @@ func TestAddPrefixEntry(t *testing.T) {
 }
 
 func TestAddPrefixEntryEdgeCases(t *testing.T) {
-	dirPath := "test_data\\test_prefix_edge_cases"
+	dirPath := filepath.Join("test_data", "test_prefix_edge_cases")
 	os.RemoveAll(dirPath)
 	defer os.RemoveAll(dirPath)
 
@@ -194,7 +196,7 @@ func TestAddPrefixEntryEdgeCases(t *testing.T) {
 }
 
 func TestPrefixSearch(t *testing.T) {
-	dirPath := "test_data\\test_prefix_search"
+	dirPath := filepath.Join("test_data", "test_prefix_search")
 	os.RemoveAll(dirPath)
 	defer os.RemoveAll(dirPath)
 
@@ -377,7 +379,7 @@ func TestPrefixSearch(t *testing.T) {
 }
 
 func TestPrefixSearchDebug(t *testing.T) {
-	dirPath := "test_data\\test_prefix_debug"
+	dirPath := filepath.Join("test_data", "test_prefix_debug")
 	os.RemoveAll(dirPath)
 	defer os.RemoveAll(dirPath)
 

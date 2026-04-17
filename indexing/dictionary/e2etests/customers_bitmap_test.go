@@ -6,10 +6,11 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"github.com/kozwoj/indexing/dictionary/dictionary"
-	"github.com/kozwoj/indexing/dictionary/postings"
 	"testing"
 	"time"
+
+	"github.com/kozwoj/indexing/dictionary/dictionary"
+	"github.com/kozwoj/indexing/dictionary/postings"
 )
 
 // BitmapMultiDictStore manages customer records with separate dictionaries using bitmap format.
@@ -43,7 +44,7 @@ func NewBitmapMultiDictStore(basePath string, cleanExisting bool, blockSizes dic
 
 	// Helper to create or open a dictionary with bitmap format
 	openOrCreateDict := func(fieldName string) (*dictionary.Dictionary, error) {
-		dirPath := basePath + "\\" + fieldName + "_dict"
+		dirPath := filepath.Join(basePath, fieldName+"_dict")
 
 		// Try to open existing dictionary first
 		dict, err := dictionary.OpenDictionary(dirPath, fieldName)

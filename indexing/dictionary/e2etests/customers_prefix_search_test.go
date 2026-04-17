@@ -4,9 +4,11 @@ import (
 	"bufio"
 	"encoding/json"
 	"os"
-	"github.com/kozwoj/indexing/dictionary/dictionary"
+	"path/filepath"
 	"testing"
 	"time"
+
+	"github.com/kozwoj/indexing/dictionary/dictionary"
 )
 
 /*
@@ -18,7 +20,7 @@ TestCustomersPrefixSearch tests the prefix search functionality by:
 */
 func TestCustomersPrefixSearch(t *testing.T) {
 	// Configuration
-	basePath := "C:\\temp\\northwind\\customers_prefix_test"
+	basePath := filepath.Join(t.TempDir(), "customers_prefix_test")
 	dataFile := "../test_data/customers.sjo"
 	blockSizes := dictionary.DictionaryBlockSizes{
 		PostingsBlockSize: 512,
@@ -45,25 +47,25 @@ func TestCustomersPrefixSearch(t *testing.T) {
 	}
 
 	// Create dictionaries for relevant fields
-	cityDict, err := dictionary.CreateDictionary(basePath+"\\city_dict", "City", blockSizes, initialBlocks)
+	cityDict, err := dictionary.CreateDictionary(filepath.Join(basePath, "city_dict"), "City", blockSizes, initialBlocks)
 	if err != nil {
 		t.Fatalf("Failed to create City dictionary: %v", err)
 	}
 	defer cityDict.Close()
 
-	companyNameDict, err := dictionary.CreateDictionary(basePath+"\\companyname_dict", "CompanyName", blockSizes, initialBlocks)
+	companyNameDict, err := dictionary.CreateDictionary(filepath.Join(basePath, "companyname_dict"), "CompanyName", blockSizes, initialBlocks)
 	if err != nil {
 		t.Fatalf("Failed to create CompanyName dictionary: %v", err)
 	}
 	defer companyNameDict.Close()
 
-	customerIDDict, err := dictionary.CreateDictionary(basePath+"\\customerid_dict", "CustomerID", blockSizes, initialBlocks)
+	customerIDDict, err := dictionary.CreateDictionary(filepath.Join(basePath, "customerid_dict"), "CustomerID", blockSizes, initialBlocks)
 	if err != nil {
 		t.Fatalf("Failed to create CustomerID dictionary: %v", err)
 	}
 	defer customerIDDict.Close()
 
-	countryDict, err := dictionary.CreateDictionary(basePath+"\\country_dict", "Country", blockSizes, initialBlocks)
+	countryDict, err := dictionary.CreateDictionary(filepath.Join(basePath, "country_dict"), "Country", blockSizes, initialBlocks)
 	if err != nil {
 		t.Fatalf("Failed to create Country dictionary: %v", err)
 	}
